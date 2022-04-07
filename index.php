@@ -1,1 +1,1 @@
-<?php include_once("hoindextml"); ?>
+<?php echo file_get_contents("index.html"); ?>
