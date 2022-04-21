@@ -23,5 +23,8 @@
     <p>long loading time, right click when it loads for full screen<br>Some games have links like submitting your score, or more games. Don't do this: it will delete your progress.</p>
     <?php echo "<embed style=\"margin:0;padding:0;\" src=\"/swf/".$_GET['game'].".swf\">"; ?>
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    <!-- 100% privacy friendly analytics -->
+<script data-collect-dnt="true" async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
 </body>
 </html>
